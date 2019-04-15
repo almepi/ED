@@ -13,7 +13,7 @@ import static com.example.adiccionario.R.id.button60;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button[] botones = new Button[15];
+    //Button[] botones = new Button[15];
 
 
 
@@ -22,23 +22,54 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botones[0]= (Button) findViewById(R.id.button48);
-        botones[1]= (Button) findViewById(R.id.button53);
-        botones[2]= (Button) findViewById(R.id.button54);
-        botones[3]= (Button) findViewById(R.id.button45);
-        botones[4]= (Button) findViewById(R.id.button46);
-        botones[5]= (Button) findViewById(R.id.button47);
-        botones[6]= (Button) findViewById(R.id.button43);
-        botones[7]= (Button) findViewById(R.id.button42);
-        botones[8]= (Button) findViewById(R.id.button44);
-        botones[9]= (Button) findViewById(R.id.button55);
-        botones[10]= (Button) findViewById(R.id.button56);
-        botones[11]= (Button) findViewById(R.id.button57);
-        botones[12]= (Button) findViewById(R.id.button58);
-        botones[13]= (Button) findViewById(R.id.button59);
-        botones[14]= (Button) findViewById(R.id.button60);
-    }
+        /*botones[0]= findViewById(R.id.button48);
+        botones[1]= findViewById(R.id.button53);
+        botones[2]= findViewById(R.id.button54);
+        botones[3]= findViewById(R.id.button45);
+        botones[4]= findViewById(R.id.button46);
+        botones[5]= findViewById(R.id.button47);
+        botones[6]= findViewById(R.id.button43);
+        botones[7]= findViewById(R.id.button42);
+        botones[8]= findViewById(R.id.button44);
+        botones[9]= findViewById(R.id.button55);
+        botones[10]= findViewById(R.id.button56);
+        botones[11]= findViewById(R.id.button57);
+        botones[12]= findViewById(R.id.button58);
+        botones[13]= findViewById(R.id.button59);
+        botones[14]= findViewById(R.id.button60);
+    }*/
 
+        Button boton1 = (Button)findViewById(R.id.button48);
+        boton1.setText("School");
+        Button boton2 = (Button)findViewById(R.id.button53);
+        boton2.setText("Car");
+        Button boton3 = (Button)findViewById(R.id.button54);
+        boton3.setText("Book");
+        Button boton4 = (Button)findViewById(R.id.button45);
+        boton4.setText("House");
+        Button boton5 = (Button)findViewById(R.id.button46);
+        boton5.setText("Computer");
+        Button boton6 = (Button)findViewById(R.id.button47);
+        boton6.setText("Green");
+        Button boton7 = (Button)findViewById(R.id.button43);
+        boton7.setText("Kitchen");
+        Button boton8 = (Button)findViewById(R.id.button42);
+        boton8.setText("Teacher");
+        Button boton9 = (Button)findViewById(R.id.button44);
+        boton9.setText("Window");
+        Button boton10 = (Button)findViewById(R.id.button55);
+        boton10.setText("Sing");
+        Button boton11 = (Button)findViewById(R.id.button56);
+        boton11.setText("Play");
+        Button boton12 = (Button)findViewById(R.id.button57);
+        boton12.setText("Toy");
+        Button boton13 = (Button)findViewById(R.id.button58);
+        boton13.setText("Beach");
+        Button boton14 = (Button)findViewById(R.id.button59);
+        boton14.setText("Country");
+        Button boton15 = (Button)findViewById(R.id.button60);
+        boton15.setText("Picture");
+    }
 
     ArrayList<String> palabras = new ArrayList<>();
 
